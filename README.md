@@ -69,6 +69,8 @@ Several changes were made in attempt to increase the accuracy of the model.
 4. Increase number of neurons in each layer form 16,8,1 to 128,64,32,16,1
 The accuracy reached 72.46%
 ### Summary
+This model predicts the success and failure of an organization after obtaining funding from AlphabetSoup with a 72.46% accuracy rate however, it is hard to interpret anything about the features from the model due to the nature of neural network models.
+A different model that could be used to solve this problem would be random forest. I believe a random forest model can provide a deeper insight into the relative influence of each feature on the success of an organization. This kind of model may potentially also provide a higher accuracy rate than the deep learning model.
 
-#### Suggestion
-A different model that could be used to solve this problem would be random forest. I believe a random forest model can provide a deeper insight into the relative influence of each feature on the success of an organization. 
+## References 
+IRS. Tax Exempt Organization Search Bulk Data Downloads. https://www.irs.gov/Links to an external site.
